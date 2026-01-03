@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to {{APP_NAME}}</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      background-color: #ffffff;
+      max-width: 500px;
+      margin: 0 auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+    .content h2 {
+      color: #333;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    .content p {
+      color: #555;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #007bff;
+      color: #ffffff !important;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .footer {
+      background-color: #f4f4f4;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Welcome to Goalz</h1>
+    </div>
+    <div class="content">
+      <h2>Hi {{USER_NAME}},</h2>
+      <p>We’re excited to have you join our community! Your account has been successfully created, and you’re all set to explore everything we have to offer.</p>
+      <p>If you have any questions, feel free to reach out to our support team.</p>
+    </div>
+    <div class="footer">
+      <p>© {{CURRENT_YEAR}} Goalz. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
